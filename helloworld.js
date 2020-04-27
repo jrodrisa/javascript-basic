@@ -5,16 +5,16 @@ console.log("Hello world!");
 alert("Em dic Júlia!");
 
 // Exercici 3
-var name="Júlia";
-var last_name="Rodríguez";
+let name="Júlia";
+let last_name="Rodríguez";
 
 // Exercici 4
-var number1 = 34;
-var number2 = 56;
+let number1 = 34;
+let number2 = 56;
 console.log('La suma entre ' + number1 + ' i ' + number2 + ' és ' + (number1+number2) + '.');
 
 // Exercici 5
-var  nota_examen = 0;
+let  nota_examen = 0;
 if (nota_examen >= 5) {
     alert('Molt bé! Has aprovat l\'examen amb un ' + nota_examen + '.');
 } else {
@@ -22,11 +22,11 @@ if (nota_examen >= 5) {
 }
 
 // Exercici 6
-var frase = "Tinc un cotxe de color verd"; 
-var frase = frase.replace("verd", "blau");
+let frase = "Tinc un cotxe de color verd"; 
+let frase = frase.replace("verd", "blau");
 console.log(frase);
 
-for (i = 0; i < frase.length; i++) {
+for (let i = 0; i < frase.length; i++) {
     if (frase[i] === 'o'){
         frase = frase.replace("o","u");
     }
@@ -35,8 +35,8 @@ console.log(frase);
 
 
 // Exercici 7
-var objectes = ["taula", "cadira", "ordinador", "llibreta"];
-for (i = 0; i < objectes.length; i++) {
+let objectes = ["taula", "cadira", "ordinador", "llibreta"];
+for (let i = 0; i < objectes.length; i++) {
     console.log('L\'objecte ' + objectes[i] + ' està a la posició ' + i);
 }
 
